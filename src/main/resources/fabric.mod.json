@@ -1,37 +1,24 @@
 {
 	"schemaVersion": 1,
-	"id": "redstone-debugger",
+	"id": "redebug",
 	"version": "${version}",
 	"name": "Redstone Debugger",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Adds a Redstone Debugger and transmitter to debug redstone",
 	"authors": [
-		"Me!"
+		"Blasted"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://youtube.com/blastedmc",
+		"sources": "https://github.com/Blasted246/redstone-debugger"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/redstone-debugger/icon.png",
+	"icon": "assets/redebug/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.blasted.redstonedebugger.RedstoneDebugger"
-		],
-		"client": [
-			"com.blasted.redstonedebugger.RedstoneDebuggerClient"
-		],
-		"fabric-datagen": [
-			"com.blasted.redstonedebugger.RedstoneDebuggerDataGenerator"
+			"blasted.redebug.RedstoneDebugger"
 		]
 	},
-	"mixins": [
-		"redstone-debugger.mixins.json",
-		{
-			"config": "redstone-debugger.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
 		"minecraft": "~1.21.4",

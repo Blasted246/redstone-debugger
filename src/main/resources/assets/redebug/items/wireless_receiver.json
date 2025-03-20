@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:model",
+  "model": "redebug:block/wireless_receiver.json"
+}

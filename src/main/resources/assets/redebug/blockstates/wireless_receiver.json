@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "redebug:block/wireless_receiver",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "redebug:block/wireless_receiver"
+    },
+    "facing=south": {
+      "model": "redebug:block/wireless_receiver",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "redebug:block/wireless_receiver",
+      "y": 270
+    }
+  }
+}
