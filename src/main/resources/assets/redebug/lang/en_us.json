@@ -1,4 +1,6 @@
 {
     "item.redebug.transmitter" : "Redstone Transmitter",
-    "block.redebug.wireless_reciever" : "Redstone Reciever"
+    "block.redebug.wireless_reciever" : "Redstone Reciever",
+    "key.categories.redebug.redstone_debugger" : "Redstone Debugger",
+    "key.redebug.trigger_redstone_debugger" : "Trigger Redstone"
 }

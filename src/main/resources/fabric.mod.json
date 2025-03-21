@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
 			"blasted.redebug.RedstoneDebugger"
+		],
+		"client": [
+			"blasted.redebug.RedstoneDebuggerClient"
 		]
 	},
 	"depends": {
